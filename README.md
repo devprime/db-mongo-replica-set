@@ -6,20 +6,20 @@ Requirements:
 
 Follow the guide:
 
-1) Modify the etc\hosts file on Windows / Linux / Mac.
+- Modify the etc\hosts file on Windows / Linux / Mac.
 
-a) In the Windows environment, you'll find a directory similar to "C:\Windows\System32\drivers\etc\hosts".
+- In the Windows environment, you'll find a directory similar to "C:\Windows\System32\drivers\etc\hosts".
 
-b) Add the following entries to the etc\hosts file.
+- Add the following entries to the etc\hosts file.
 
 127.0.0.1 mongo1
 127.0.0.1 mongo2
 127.0.0.1 mongo3
 
-2) Run the Docker Compose in the directory:
+- Run the Docker Compose in the directory:
 docker-compose up -d
 
-3) To connect using MongoDB Compass:
-a) Use the connection string
+- To connect using MongoDB Compass:
+Use the connection string
 
 mongodb://mongo1:30001,mongo2:30002,mongo3:30003/?replicaSet=my-replica-set&tls=false
