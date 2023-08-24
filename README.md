@@ -12,9 +12,9 @@ Follow the guide:
 
 - Add the following entries to the etc\hosts file.
 
-127.0.0.1 mongo1
-127.0.0.1 mongo2
-127.0.0.1 mongo3
+127.0.0.1 mongo1 
+127.0.0.1 mongo2 
+127.0.0.1 mongo3 
 
 - Run the Docker Compose in the directory:
 docker-compose up -d
